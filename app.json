@@ -1,0 +1,23 @@
+{
+    "runtime": {
+        "version": "15.80.50.35",
+        "verboseLogging": true
+    },
+    "startup_app": {
+      "name": "OpenFin services demo",
+      "description": "OpenFin services demo",
+      "url": "https://www.example.com",
+      "uuid": "services-demo",
+      "autoShow": true
+    },
+    "services" :[
+        { "name": "service1", "manifestUrl": "http://localhost:5555/service1.json" },
+        { "name": "service2", "manifestUrl": "http://localhost:5555/service2.json" }
+    ],
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Platform app seed local",
+        "icon": "https://openfin.github.io/golden-prototype/favicon.ico",
+        "name": "Platform app seed local"
+    }
+}

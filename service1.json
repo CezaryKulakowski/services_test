@@ -1,0 +1,14 @@
+{
+  "runtime": {
+    "version": "15.80.50.35"
+  },
+  "startup_app": {
+    "name": "service1",
+    "description": "Service 1",
+    "url": "http://localhost:5555/service1.html",
+    "uuid": "service1",
+    "autoShow": true,
+    "waitForPageLoad": false,
+    "accelerator": { "devtools": true }
+  }
+}
