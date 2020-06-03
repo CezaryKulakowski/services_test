@@ -1,7 +1,6 @@
 {
     "runtime": {
-        "version": "15.80.50.35",
-        "verboseLogging": true
+        "version": "15.80.50.35"
     },
     "startup_app": {
       "name": "OpenFin services demo",
